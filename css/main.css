@@ -1,0 +1,250 @@
+/***BASE STYLES***/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#work {
+  height: 600px;
+}
+
+#about {
+  height: 600px;
+}
+
+#contact {
+  height: 600px;
+}
+
+/***GRID***/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***HEADER***/
+header {
+  height: 800px;
+  background: url(https://s3.us-east-2.amazonaws.com/kendall-haechten/home-image.jpg);
+  background-size: cover;
+  border-bottom: solid thin #a4b3b3;
+}
+
+header h1 {
+  padding: 10px 0px;
+  font-family: 'Cookie', cursive;
+  font-size: 35px;
+  color: #252828;
+}
+
+nav {
+  float: right;
+  padding: 35px 40px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: #252828;
+  padding-left: 80px;
+}
+
+header h2 {
+  width: 800px;
+  text-align: center;
+  clear: both;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  line-height: 50px;
+  color: #252828;
+  padding: 120px 200px;
+}
+
+header h2 span {
+  color: #00a4a8;
+}
+
+/***WORK SECTION***/
+#work {
+  background-color: #e8e8e8;
+  text-align: center;
+}
+
+#work .full-width {
+  padding: 115px 0;
+}
+
+#work img {
+  padding-bottom: 30px;
+  max-width: 80%;
+  width: 200px;
+  height: 200px;
+}
+
+#work h3 {
+  font-size: 20px;
+  width: 275px;
+  margin: 0 auto;
+}
+
+#work p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #252828;
+  padding: 0 35px;
+}
+
+/***ABOUT SECTION***/
+#about .full-width {
+  width: auto;
+}
+
+#about .half-width {
+  background-color: #a4b3b3;
+  width: 50%;
+  height: 600px;
+}
+
+#about-img {
+  width: 50%
+  height: 600px;
+  float: left;
+}
+
+#about h2 {
+  padding-top: 110px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #242727
+}
+
+#about span {
+  font-family: 'Cookie', cursive;
+  font-size: 35px;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+#about p {
+  padding-left: 75px;
+  padding-right: 75px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 40px;
+  color: #242727;
+}
+
+/***CONTACT SECTION***/
+#contact .full-width {
+  width: auto;
+}
+
+#contact .half-width {
+  background-color: #e8e8e8;
+  width: 50%;
+  height: 600px;
+}
+
+#contact h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #242727;
+}
+
+#contact h3 {
+  font-family: 'Montserrat',sans-serif;
+  font-size: 25px;
+  text-align: center;
+  font-weight: normal;
+  color: #242727;
+}
+
+#contact-header {
+  padding-top: 120px;
+}
+
+#email-header {
+  font-family: 'Montserrat',sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #242727;
+}
+
+#email-header span {
+  font-family: 'Cookie', cursive;
+  font-size: 35px;
+  color: #00a4a8;
+}
+
+.email {
+  text-align: center;
+}
+
+#email-icon {
+  height: 40px;
+  width: 40px;
+}
+
+#email-address {
+  font-family: 'Montserrat',sans-serif;
+  font-size: 18px;
+  color: #242727;
+  position: relative;
+  bottom: 15px;
+}
+
+#meeting {
+  width: 640px;
+  height: 600px;
+  float: right;
+}
+
+#socialmedia-header h3 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#contact-ul li {
+  display: inline-block;
+  align: center;
+}
+
+#instagram {
+  height: 40px;
+  width: 40px;
+  padding-left: 200px;
+}
+
+#github {
+  height: 40px;
+  width: 40px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#behance {
+  height: 40px;
+  width: 40px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
